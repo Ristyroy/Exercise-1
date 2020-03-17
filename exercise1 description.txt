@@ -1,0 +1,22 @@
+Exercise-1
+
+A collection is a framework that provides an architecture to store and manipulate group of objects.
+	In this project  contains a collection of 10 items.Each item contains itemId,itemShortDescription,itemPrice and itemBrand. We can use List to store List of items.So I create three packages named as 
+1)com.exercise.managerPackage
+2)com.exercise.objects
+3)Ex1. 
+	Details of each package
+
+1)com.exercise.managerPackage contains the class called Ex1Main.java, it contains methods that we are used in the program. I use three methods 
+	1)getSortedList()
+		This method is used to sort list of items based upon the highest price.
+	2)filterByT()
+		This method is used to filter items based upon their brandname starts with T.
+	3)createItemList()
+		This method is used to create list of items.
+
+2)com.exercise.objects contains the class called Item.java.
+	Here I should declare the variables that used is used in the program.And also use getter and setter methods to return and set values to the variables
+	
+3)Ex1 contains the classs called Ex1Main.java.
+	The program execution starts from here and also we can call methods and print the details from here. 
